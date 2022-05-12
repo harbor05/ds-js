@@ -1,5 +1,4 @@
-// Linked List Stack
-
+// Node
 class Node {}
 
 /**
@@ -9,7 +8,7 @@ class Node {}
  * Head가 null 인 경우에 예외처리 필요
  */
 class ListStack {
-  head; // head
+  head; // head(top), 첫번째 노드의 참조값을 저장하고 있는 변수
 
   constructor() {}
 
@@ -41,7 +40,7 @@ class ListStack {
       let targetNode = this.head;
       // 노드의 데이터를 임시저장
       let tempData = targetNode.data;
-      // 삭제할 노드 다음 노드의 참조값을 저장
+      // 삭제할 노드의 다음 노드의 참조값(next)을 저장
       this.head = targetNode.next;
       // 삭제할 노드의 연결을 끊는다.
       targetNode.data = null;

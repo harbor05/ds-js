@@ -63,8 +63,6 @@ arrayStack.push("b");
 arrayStack.push("c");
 arrayStack.push("d");
 
-console.log("Start Pushed", arrayStack);
-
 console.log("Pop1 Data", arrayStack.pop());
 console.log("pop1", arrayStack);
 
