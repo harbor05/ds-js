@@ -151,7 +151,7 @@ console.log("add", doubleLinkedList);
 doubleLinkedList.add(1, "A");
 console.log("add", doubleLinkedList);
 
-doublelinkedList.add(0, "E");
+doubleLinkedList.add(0, "E");
 console.log("add", doubleLinkedList);
 
 doubleLinkedList.addLast("D");
