@@ -79,7 +79,6 @@ class LinkedList {
       // 이전 노드의 참조 값에 새로운 노드를 저장
       foundNode.next = node;
     }
-
     // 노드 삽입 시 사이즈 증가
     ++this.size;
   }
@@ -103,12 +102,12 @@ class LinkedList {
   }
 
   /**
-   * 중간 노드 삭제
+   * 노드 제거
    * @description
    * @param {Number} 삭제할 노드의 Index
-   * 삭제할 노드의 다음 노드의 참조 값을 Head에 저장한다.
-   * 삭제할 노드의 이전 노드로 이동한다.
-   * 삭제할 노드의 후행 노드의 참조 값을 선행 노드의 참조값에 저장한다.
+   * 제거할 노드의 다음 노드의 참조 값을 Head에 저장한다.
+   * 제거할 노드의 이전 노드로 이동한다.
+   * 제거할 노드의 후행 노드의 참조 값을 선행 노드의 참조값에 저장한다.
    */
   remove(index) {
     // 첫번째 노드가 아니거나 후행 노드가 비어 있지 않은 경우
@@ -123,16 +122,16 @@ class LinkedList {
   }
 
   /**
-   * 맨 앞 노드 삭제
+   * 맨 앞 노드 제거
    * @description
-   * 삭제할 노드의 다음 노드의 참조 값을 Head에 저장한다.
+   * 제거할 노드의 다음 노드의 참조 값을 Head에 저장한다.
    */
   removeFirst() {
     this.remove(0);
   }
 
   /**
-   * 마지막 노드 삭제
+   * 마지막 노드 제거
    */
   removeLast() {
     this.remove(this.size - 1);
