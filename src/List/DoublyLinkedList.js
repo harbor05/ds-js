@@ -143,30 +143,30 @@ class DoubleLinkedList {
   }
 }
 
-let doublelinkedList = new DoubleLinkedList();
+let doubleLinkedList = new DoubleLinkedList();
 
-doublelinkedList.add(0, "B");
-console.log("add", doublelinkedList);
+doubleLinkedList.add(0, "B");
+console.log("add", doubleLinkedList);
 
-doublelinkedList.add(1, "A");
-console.log("add", doublelinkedList);
+doubleLinkedList.add(1, "A");
+console.log("add", doubleLinkedList);
 
 doublelinkedList.add(0, "E");
-console.log("add", doublelinkedList);
+console.log("add", doubleLinkedList);
 
-doublelinkedList.addLast("D");
-console.log("addLast", doublelinkedList);
+doubleLinkedList.addLast("D");
+console.log("addLast", doubleLinkedList);
 
-doublelinkedList.remove(0);
-console.log("remove0", doublelinkedList);
+doubleLinkedList.remove(0);
+console.log("remove0", doubleLinkedList);
 
-doublelinkedList.remove(2);
-console.log("remove2", doublelinkedList);
+doubleLinkedList.remove(2);
+console.log("remove2", doubleLinkedList);
 
-doublelinkedList.removeFirst();
-console.log("removeFirst", doublelinkedList);
+doubleLinkedList.removeFirst();
+console.log("removeFirst", doubleLinkedList);
 
-doublelinkedList.removeLast();
-console.log("removeLast", doublelinkedList);
+doubleLinkedList.removeLast();
+console.log("removeLast", doubleLinkedList);
 
-console.log("노드의 개수:%d\n", doublelinkedList.getNodeSize());
+console.log("노드의 개수:%d\n", doubleLinkedList.getNodeSize());
