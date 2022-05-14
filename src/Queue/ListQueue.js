@@ -1,1 +1,3 @@
 // List Queue
+
+class ListQueue {}
