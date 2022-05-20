@@ -104,7 +104,7 @@ class LinkedList {
   /**
    * 노드 제거
    * @description
-   * @param {Number} 삭제할 노드의 Index
+   * @param {Number} 제거할 노드의 Index
    * 제거할 노드의 다음 노드의 참조 값을 Head에 저장한다.
    * 제거할 노드의 이전 노드로 이동한다.
    * 제거할 노드의 후행 노드의 참조 값을 선행 노드의 참조값에 저장한다.

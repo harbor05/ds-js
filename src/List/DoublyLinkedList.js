@@ -78,7 +78,6 @@ class DoubleLinkedList {
     } else {
       // 중간에 노드를 삽입할 경우
       let targetNode = this.findNode(index);
-      // let leftNode = foundNode.left;
       node.right = targetNode; // 새로운 노드의 right에 찾은 노드를 넣 기
       targetNode.left = node; // 찾은 노드의 left에 새로운 노드를 저장
       node.left = targetNode.left; // 새로운 노드의 left에 찾은 노드의 left를 저장
