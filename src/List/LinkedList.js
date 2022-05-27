@@ -159,11 +159,11 @@ linkedList.removeLast();
 console.log("removeLast", linkedList);
 
 linkedList.remove(1);
-console.log("remove", linkedList);
+console.log("remove 1", linkedList);
 
 linkedList.removeFirst();
 console.log("removeFirst", linkedList);
 
 console.log("Final Size", linkedList.getNodeSize());
 
-console.log("Final Data", linkedList.getData(1));
+console.log("Final 1 Data", linkedList.getData(1));

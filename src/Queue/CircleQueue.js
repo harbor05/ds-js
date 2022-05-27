@@ -1,6 +1,6 @@
 /**
  * Circle Queue
- * front와 rear가 같은 값이라면 Queue가 꽉 차 있거나 비어(null)있다.
+ * front와 rear가 같은 값이라면 Queue가 꽉 차 있거나 비어있다.(null)
  */
 class CircleQueue {
   front = 0; // 꺼낼 데이터의 index, 배열의 크기를 넘지 않는다
@@ -13,7 +13,6 @@ class CircleQueue {
 
   // 데이터 추가
   add(data) {
-    console.log(this.queue);
     if (this.front === this.rear && this.queue[this.rear] !== null) {
       throw new Error("Queue is Full");
     }
