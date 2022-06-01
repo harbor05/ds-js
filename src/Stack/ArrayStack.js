@@ -56,12 +56,15 @@ class ArrayStack {
 }
 
 // Stack Size를 넣어주기
-const arrayStack = new ArrayStack(4);
+let arrayStack = new ArrayStack(4);
+console.log("init", arrayStack);
 
 arrayStack.push("a");
 arrayStack.push("b");
 arrayStack.push("c");
 arrayStack.push("d");
+
+console.log("pushed", arrayStack);
 
 console.log("Pop1 Data", arrayStack.pop());
 console.log("pop1", arrayStack);
