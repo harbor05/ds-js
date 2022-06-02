@@ -1,6 +1,8 @@
-# Data Structures
+## **Data Structures with Javascript**
 
-### **Table of Contents**
+</br>
+
+### **Contents**
 
 - [Meta Information](#Meta-Information)
 - [Project Structure](#Project-structure)
