@@ -62,7 +62,7 @@ class QueueByStacks {
   }
 
   /**
-   * 큐에서 제거
+   * 큐에서 꺼내기
    */
   dequeue() {
     let returnData = null;
