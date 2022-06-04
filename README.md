@@ -21,7 +21,7 @@
 
 ```bash
 ├── src/
-│   └── Challenges/
+│   └── Challenges/         # 자료구조 응용 (e.g. 두개의 스택을 사용한 큐)
 │   │── Graph/
 │   │── Hash/
 │   │── List/
