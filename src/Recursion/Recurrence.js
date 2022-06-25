@@ -1,5 +1,5 @@
 /**
- * Recurrence(점화식)
+ * Recurrence (재귀의 점화식 관점)
  * 1. Sigma(반복순차)
  * 2. Fibonacci sequence(반복순차 / 분할정복)
  * [22.06.21] in progress
