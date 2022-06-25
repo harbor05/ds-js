@@ -43,7 +43,7 @@ class BackTracking {
       x < 0 ||
       y < 0 ||
       this.mazeArray[y].length - 1 < x ||
-      this.mazeArray.length - 1 < y; // 미로를 벗어나는 않는 경우
+      this.mazeArray.length - 1 < y; // 미로를 벗어나지 않는 경우
 
     if (this.isFinished) {
       return; // 길을 찾았을 경우 최초에 검색 중단
