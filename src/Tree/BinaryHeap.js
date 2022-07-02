@@ -9,7 +9,6 @@
  * @description
  * 낮은 값이 우선 순위가 높은 최소 Heap
  */
-
 class MinHeap {}
 
 /**
@@ -109,7 +108,7 @@ class MaxHeap {
    * Down Heap
    * @description
    * 자식 노드 중에 우선 순위가 높은 자식과 swap
-   * @param {*} index
+   * @param {Number} index
    * @returns
    */
   downHeap(index) {
