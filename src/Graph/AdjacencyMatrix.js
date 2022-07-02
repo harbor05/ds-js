@@ -72,9 +72,9 @@ class AdjacencyMatrix {
     this.graph[u][v] = w;
   }
 
+  // 그래프 초기화
   clear() {
     for (let i = 0; i < this.graph.length; i += 1) {
-      // 그래프 초기화
       this.graph = createMatrix(this.size, this.size);
     }
   }
@@ -84,7 +84,7 @@ class AdjacencyMatrix {
     for (let i = 0; i < this.graph.length; i += 1) {
       for (let j = 0; j < this.graph[i].length; j += 1) {
         if (this.graph[i][j]) {
-          console.log("(%d, %d, %d) ", i, j, this.graph[i][j]);
+          console.log("(%d, %d, %d)", i, j, this.graph[i][j]);
         }
       }
     }
