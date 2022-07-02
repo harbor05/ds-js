@@ -1,6 +1,6 @@
 /*! *****************************************************************************
 - Binary Heap (MaxHeap / MinHeap)
-- 2022.07.02 Inprogress
+- 2022.07.02 In progress
 ***************************************************************************** */
 
 /**
@@ -57,7 +57,7 @@ class MaxHeap {
 
   /**
    * Add
-   * @param {String} data
+   * @param {Number} data
    */
   add(data) {
     if (this.size === this.queue.lenght) {
@@ -170,7 +170,7 @@ maxHeap.add(3);
 maxHeap.add(6);
 console.log("----Max Heap----");
 
-console.log("maxHeap added", maxHeap);
+console.log("MaxHeap", maxHeap);
 while (!maxHeap.isEmpty()) {
   console.log("MaxHeap Remove result:", maxHeap.remove());
 }
