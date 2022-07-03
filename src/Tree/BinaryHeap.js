@@ -68,7 +68,7 @@ class MaxHeap {
 
   /**
    * Parent Index
-   * @param {Number} index target index
+   * @param {Number} index - target index
    * @return {Number} parent index
    */
   parentIndex(index) {
@@ -77,7 +77,7 @@ class MaxHeap {
 
   /**
    * Swap Method
-   * @param {Number} index target index
+   * @param {Number} index - target index
    * @param {Number} idx - parent index
    */
   swap(index, idx) {
