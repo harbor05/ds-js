@@ -26,7 +26,7 @@ class BouncingBall {
     let totalDistance = bouncingDistance + currentSum;
     console.log("Total Distance", totalDistance);
 
-    return this.getTotalDistance(h / 2, totalDistance);
+    return this.getTotalDistance(Math.floor(h / 2), totalDistance);
   }
 }
 
